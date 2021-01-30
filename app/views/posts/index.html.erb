@@ -3,3 +3,6 @@
 <% @posts.each do |post| %>
   <%= render partial: 'post_card', locals: {post: post} %>
 <% end %>
+<section class='tasks_section d-flex flex-column align-items-center'>
+  <%= render 'post' %>
+</section>
