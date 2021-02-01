@@ -43,6 +43,9 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 
 
 Layout/HashAlignment:
@@ -62,5 +65,3 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: true
