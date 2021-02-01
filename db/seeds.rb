@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# frozen_string_literal: false
 
 User.create!([
                { id: 1, email: 'tyler@gmail.com', password: 'aaaaaa',
