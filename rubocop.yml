@@ -41,8 +41,7 @@ Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
   Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
+
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -60,4 +59,6 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
+  Enabled: false
+Style/FrozenStringLiteralComment:
   Enabled: false
