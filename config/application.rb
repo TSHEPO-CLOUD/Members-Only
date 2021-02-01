@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 require_relative 'boot'
 
 require 'rails/all'
