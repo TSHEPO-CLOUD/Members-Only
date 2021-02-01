@@ -23,7 +23,7 @@ m = Module.new do
   end
 
   # rubocop:disable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
-  def cli_arg_version
+  def cli_arg_version # rubocop:disable Metrics/MethodLength
     return unless invoked_as_script? # don't want to hijack other binstubs
     return unless 'update'.start_with?(ARGV.first || ' ') # must be running `bundle update`
 
@@ -90,7 +90,7 @@ m = Module.new do
     activate_bundler
   end
 
-  def activate_bundler
+  def activate_bundler # rubocop:disable Metrics/MethodLength
     gem_error = activation_error_handling do
       gem 'bundler', bundler_requirement
     end
