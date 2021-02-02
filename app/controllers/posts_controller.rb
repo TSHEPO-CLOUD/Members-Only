@@ -1,5 +1,6 @@
+# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 class PostsController < ApplicationController
-  before_action :authenticate_user!, only: %i[new create edit]
+  before_action :authenticate_user!, only: %i[new create]
 
   def index
     @posts = Post.all

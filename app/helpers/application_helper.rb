@@ -1,3 +1,4 @@
+# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 module ApplicationHelper
   def show_user_name(current_user)
     if signed_in?
@@ -24,9 +25,8 @@ module ApplicationHelper
     else
       "<div class='image_container'>
         #{image_tag('avatar.jpg', alt: 'avatar', class: 'avatar_image')}
-      </div>
-      <h3 class='card_username'>Anonymous</h3>
-    ".html_safe
+      </div>  <h3 class='card_username'>Anonymous</h3>
+      ".html_safe
     end
   end
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: false
+
 Rails.application.routes.draw do
   devise_for :users
   resources :posts, only: %i[new create index]

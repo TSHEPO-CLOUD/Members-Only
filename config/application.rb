@@ -1,3 +1,6 @@
+# frozen_string_literal: false
+
+# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 require_relative 'boot'
 
 require 'rails/all'
@@ -7,6 +10,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module MembersOnly
+  # https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0

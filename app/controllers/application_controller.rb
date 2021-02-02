@@ -1,3 +1,4 @@
+# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
@@ -14,5 +15,3 @@ class ApplicationController < ActionController::Base
     end
   end
 end
-
-# https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407

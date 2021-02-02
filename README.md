@@ -3,17 +3,75 @@
 This project creates a secret social media platform where only authorized members can see who posted a ''crazy task''. This project was build as a result of inspiration by the novel of Chuck Palahniuk
 
 ## Screenshots
+![screenshot](Screenshot2.png)
+![screenshot](Screenshot1.png)
 
-## Home page
-
-![f](https://user-images.githubusercontent.com/31889642/99608261-f6a40400-2a26-11eb-919d-e53c3a2d01e8.png)
-
-### Tasks page
-
-![f2](https://user-images.githubusercontent.com/31889642/99609612-b5612380-2a29-11eb-97ad-b43e8fc6cf5c.png)
+- This is the application for the Microverse Ruby on Rails curriculum
+  module
+- [Project Specs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
 
 
+### In this project we create a simple Post service with Authentication feature to learn the basics of Ruby on Rails including
 
+- Models, Views, and Controllers (MVC)
+- Data Structures & Relationships
+- Routing
+- Migrations
+- Views with forms, partials, and helpers
+- RESTful design
+- Adding gems for extra features
+- Authentication
+
+## On your Computer
+
+To get a local copy up and running follow these simple example steps.
+
+## Prerequisites
+
+- Any PC or device with an internet connection and ability to use the command
+  line terminal
+
+## Setup
+
+- Open the command line terminal
+
+## Install
+
+- Go to your preferred directory
+- Run `git clone https://github.com/TSHEPO-CLOUD/Members-Only/tree/feature-branch` command
+- Install Rails with all dependencies in order to run local server and app in
+  it:
+- `install Rails`
+- `bundle install`
+- `rails db:migrate`
+
+## Usage
+
+- Go to respective directory and run
+- `rails server`
+- Open LOCALHOST:3000 in your browser
+
+## Built with
+
+- Ruby 2.7.0
+- Ruby on Rails 6.0.3.4
+- Bootstrap
+- Devise gem
+
+## Authors
+
+👤 **Mohammed Naqhid**
+
+- GitHub: [@Naqhid](https://github.com/Naqhid)s
+- Twitter: [Naqhid](https://twitter.com/naqhid)
+- LinkedIn: [Naqhid](https://www.linkedin.com/in/mohammed-naqhid-ab3080189/)
+- Email: mnaqhid@gmail.com
+
+👤 **TSHEPO DAVID MOLEFE**
+
+- GitHub: [@githubhandle](https://github.com/TSHEPO-CLOUD)
+- Twitter: [@twitterhandle](https://twitter.com/tshepomolefem)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tshepo-molefe-8153313b)
 
 ## Built With
 
@@ -24,7 +82,7 @@ This project creates a secret social media platform where only authorized member
 
 ##  Setup    <a name = "setup"></a>
 - Clone this project from github using
-- <code>$ git clone https://github.com/MkrtichSargsyan/Members-Only.git</code>
+- <code>$ git clone https://github.com/TSHEPO-CLOUD/Members-Only/tree/feature-branch</code>
 - <code>cd Members-Only</code>
 - <code>$ bundle install</code>
 - <code>$ yarn install</code>
@@ -33,30 +91,16 @@ This project creates a secret social media platform where only authorized member
 - <code>$ rails server</code>
 
 
-
-## Live Demo
-
-<a href= "https://fight-club01.herokuapp.com/" target="_blank">Live version</a>
-
 ## Author
 
 Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
-
-👤 **Mkrtich Sargsyan**
-
-
-[<code><img height="26" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"></code>](https://github.com/MkrtichSargsyan)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></code>](https://twitter.com/MkrtichSargsyan)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/mkrtich-sargsyan/)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail_Icon.svg"></code>](mailto:mkrtichsargsyan24@gmail.com)
-
 
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/RICKCOYL/embeded-images-and-videos/issues"> issues page</a>.
+Feel free to check the <a href=""> issues page</a>.
 
 ## Show your support
 
