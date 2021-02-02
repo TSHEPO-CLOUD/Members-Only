@@ -1,5 +1,3 @@
-# frozen_string_literal: false
-
 # https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception

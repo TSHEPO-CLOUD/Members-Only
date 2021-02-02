@@ -1,5 +1,4 @@
 # rubocop:disable frozen_string_literal: true
-# frozen_string_literal: true
 
 class User < ApplicationRecord
   validates :name, uniqueness: { case_sensitive: false }
